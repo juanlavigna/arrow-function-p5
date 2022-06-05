@@ -26,3 +26,11 @@ function saludar (nombre) {
  }
 }
 */
+
+let saludar = nombre => {
+    if (nombre === undefined) {
+        return "hola anónimo";
+      } else {
+        return "hola " + nombre;
+      }
+}
