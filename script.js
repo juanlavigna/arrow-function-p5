@@ -34,3 +34,15 @@ let saludar = nombre => {
         return "hola " + nombre;
       }
 }
+
+let nombreCompleto = nombre, apellido => {
+    return `${nombre} ${apellido}`;
+   }
+
+let exclamar = str => {
+    `str`
+   }
+   
+let mayusculas = (str) => return str.toUpperCase()
+
+let minusculas = (str) => str.toLowerCase()
