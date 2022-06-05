@@ -17,3 +17,12 @@ let cuadrado = num => num*num
 
 let decirHola = () => console.log("HOLA!")
 
+/*
+function saludar (nombre) {
+ if (nombre === undefined) {
+   return "hola anónimo";
+ } else {
+   return "hola " + nombre;
+ }
+}
+*/
